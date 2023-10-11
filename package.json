@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "chart.js": "^4.4.0",
     "firebase": "^10.4.0",
     "mongoose": "^7.6.1",
     "next": "latest",
     "react": "latest",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "latest",
     "react-hook-form": "^7.47.0",
     "swiper": "^10.3.1"

@@ -8,11 +8,12 @@ const ProjectInfo = ({data}: {data: IMenuItem[]}) => {
   const searchParams= useSearchParams()
   const id: any=searchParams.get("project")
   const [showModal, setShowModal] = useState<Boolean>(false);
+  console.log(data[55])
   return (
     <>
    
     <section className="w-full lg:w-4/5">
-    {id !== null?(
+    {id !== null && data[id] !==undefined?(
       <div id="section2" className="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
       <h2 className="font-sans font-bold break-normal text-gray-700 pb-2 text-xl">{data[id]?.name}</h2>
         <form>

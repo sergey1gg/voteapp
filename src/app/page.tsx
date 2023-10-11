@@ -82,6 +82,63 @@ import { useEffect, useRef, useState } from 'react'
       images: ["261205/11-1.jpg", "261205/11-2.jpg", "261205/11-3.jpg"],
       author: ""
       },
+      {
+        id: 11,
+        name: "Вдохновение и инновации",
+        text: "",
+        images: ["261205/18-1.jpg", "261205/18-2.jpg", "261205/18-3.jpg"],
+        author: ""
+        },
+    {
+        id: 12,
+        name: "Стеклянная волна",
+        text: "",
+        images: ["261205/17-1.jpg", "261205/17-2.jpg", "261205/17-3.jpg"],
+        author: ""
+        },
+    {
+        id: 13,
+        name: "Райский цветок",
+        text: "",
+        images: ["261205/16-1.jpg", "261205/16-2.jpg", "261205/16-3.jpg"],
+        author: ""
+        },
+    {
+        id: 14,
+        name: "Свет в кубе",
+        text: "",
+        images: ["261205/14-1.jpg", "261205/14-2.jpg", "261205/14-3.jpg"],
+        author: ""
+        },
+    {
+        id: 15,
+        name: "Эстесфера",
+        text: "",
+        images: ["261205/15-1.jpg", "261205/15-2.jpg", "261205/15-3.jpg"],
+        author: ""
+        },
+    {
+        id: 16,
+        name: "SYLVER",
+        text: "",
+        images: ["261205/12-1.jpg", "261205/12-2.jpg", "261205/12-3.jpg"],
+        author: ""
+        },
+    {
+        id: 17,
+        name: "Илимдер шаар",
+        text: "",
+        images: ["261205/13-1.jpg", "261205/13-2.jpg", "261205/13-3.jpg"],
+        author: ""
+        },
+    {
+        id: 18,
+        name: "104925",
+        text: "",
+        images: ["261205/20-1.jpg", "261205/20-2.jpg", "261205/20-3.jpg"],
+        author: ""
+        },
+    
 ]
 export default function Home() {
 

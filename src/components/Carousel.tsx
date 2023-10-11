@@ -33,6 +33,7 @@ const Carousel = ({images} :{images: any}) => {
     return (
       <>
              <Swiper
+             key={images}
              modules={[Navigation,Pagination]}
              spaceBetween={10} slidesPerView={visibleSlides}
              pagination={{ clickable: true }}
@@ -40,7 +41,7 @@ const Carousel = ({images} :{images: any}) => {
   >
       {images?.map((item: any, index: any) => (
         <SwiperSlide key={index} onClick={()=>  setImgPopup({state: true, img: item})}>
-         <img src={item} className='h-64'/>
+         <img src={item} className='h-64 cursor-pointer'/>
         </SwiperSlide>
       ))}
     </Swiper>

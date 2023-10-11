@@ -19,7 +19,7 @@ const Menu = ({ data }: { data: IMenuItem[] }) => {
 
                 </button>
             </div>
-            <div className={`w-full sticky inset-0 ${menuOpen? '': 'hidden'} max-h-64 lg:h-auto overflow-x-hidden lg:overflow-x-visible overflow-y-auto lg:overflow-y-visible lg:block mt-0 my-2 lg:my-0 border border-gray-400 lg:border-transparent bg-white shadow lg:shadow-none lg:bg-transparent z-20" style={{ top: '6em' }} id="menu-content`}>
+            <div className={`w-full sticky inset-0 ${menuOpen? '': 'hidden'} max-h-64 lg:max-h-80 lg:h-auto overflow-x-hidden lg:overflow-x-visible overflow-y-auto  lg:block mt-0 my-2 lg:my-0 border border-gray-400 lg:border-transparent bg-white shadow lg:shadow-none lg:bg-transparent z-20" style={{ top: '6em' }} id="menu-content`}>
                 <ul className="list-reset py-2 md:py-0">
                     {data?.map((item, index) => (
                          <Link href={{ query:{ project: item.id } }}

@@ -26,7 +26,6 @@ export async function POST(req: Request) {
       votes.forEach((vote: { id: string, name: string }) => {
         if (!votesInfo[vote.id]) {
           votesInfo[vote.id] = {
-            name: vote.name,
             votes: 0,
           };
         }
@@ -35,7 +34,6 @@ export async function POST(req: Request) {
 
       const result = Object.keys(votesInfo).map(id => ({
         id,
-        name: votesInfo[id].name,
         votes: votesInfo[id].votes,
       }));
   
