@@ -28,9 +28,9 @@ export default function ConfirmModal({setShowModal, data}: {setShowModal: any, d
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 {/*header*/}
                 <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
-                  <h5 className="text-3xl font-semibold">
+                  <p className="text-base font-bold py-2 lg:pb-6 text-gray-700">
                     Проголосовать за проект {data.name}?
-                  </h5>
+                  </p>
                   <button
                     className="p-1 ml-auto bg-transparent border-0 text-black float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                     onClick={() => setShowModal(false)}

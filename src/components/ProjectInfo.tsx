@@ -28,9 +28,7 @@ const ProjectInfo = ({data}: {data: IMenuItem[]}) => {
         </form>
       </div>
           ):(
-            <div id="section2" className="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
-          <h2 className="font-sans font-bold break-normal text-gray-700 pb-2 text-xl">Выберите проект из списка меню</h2>
-          </div>)}
+            null)}
     </section>
     
     {showModal && <ConfirmModal setShowModal={setShowModal} data={data[id]}/>}

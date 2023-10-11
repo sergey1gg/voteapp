@@ -8,7 +8,7 @@ const Menu = ({ data }: { data: IMenuItem[] }) => {
     const [menuOpen, setMenuOpen]=useState<boolean>(false)
     return (
         <div className="w-full lg:w-1/5 px-6 text-xl text-gray-800 leading-normal">
-            <p className="text-base font-bold py-2 lg:pb-6 text-gray-700">Menu</p>
+            <p className="text-base font-bold py-2 lg:pb-6 text-gray-700">Выберите проект из списка</p>
             <div className="block lg:hidden sticky inset-0">
                 <button id="menu-toggle" className="flex w-full items-center justify-between px-3 py-3 bg-white lg:bg-transparent border rounded border-gray-600 hover:border-yellow-600 appearance-none focus:outline-none"
                 onClick={()=> setMenuOpen(!menuOpen)}>
