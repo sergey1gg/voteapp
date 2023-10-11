@@ -14,7 +14,7 @@ import { useEffect, useRef, useState } from 'react'
       },
   {
       id: 1,
-      name: "Кампус-Элен-Назике",
+      name: "162630",
       text: "",
       images: ["261205/2-1.jpg", "261205/2-2.jpg", "261205/2-3.jpg"],
       author: ""
@@ -63,7 +63,7 @@ import { useEffect, useRef, useState } from 'react'
       },
   {
       id: 8,
-      name: "Аепролдю",
+      name: "3834",
       text: "",
       images: ["261205/9-1.jpg", "261205/9-2.jpg", "261205/9-3.jpg"],
       author: ""
