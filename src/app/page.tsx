@@ -63,14 +63,14 @@ import { useEffect, useRef, useState } from 'react'
       },
   {
       id: 8,
-      name: "3834",
+      name: "3846",
       text: "",
       images: ["261205/9-1.jpg", "261205/9-2.jpg", "261205/9-3.jpg"],
       author: ""
       },
   {
       id: 9,
-      name: "URBAN",
+      name: "24221",
       text: "",
       images: ["261205/10-1.jpg", "261205/10-2.jpg", "261205/10-3.jpg"],
       author: ""
