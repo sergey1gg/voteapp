@@ -48,7 +48,6 @@ const page = () => {
     <div className='px-5 lg:px-64'>
     <h2>Votes List</h2>
     <Bar options={options} data={chartData}/>
-{/*
     <ul>
       {data?.map((vote: any) => (
         <li key={vote.id}>
@@ -56,7 +55,6 @@ const page = () => {
         </li>
       ))}
     </ul>
-          */}
   </div>
 
   )
